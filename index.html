@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eleanor Stenberg</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- FLOATING ACCENTS -->
+  <div class="accent accent-1"></div>
+  <div class="accent accent-2"></div>
+
+  <!-- TRANSPARENT / CLEAR NAV -->
+  <nav class="nav">
+    <div class="nav-left">ELEANOR STENBERG</div>
+    <div class="nav-right">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO: MAIN NAME TITLE -->
+    <section class="hero section-reveal" data-scroll>
+      <h1 class="main-title">Eleanor Stenberg</h1>
+      <p class="sub">Computer Science · Mathematics · Quantitative Finance</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section section-reveal" data-scroll>
+      <h2>About</h2>
+
+      <!-- SMALL IMAGE -->
+      <img src="IMG_4620.jpg" alt="Eleanor" class="about-img" />
+
+      <p>
+        Hi, my names Eleanor and I'm a Computer Science major with a Mathematics minor, focused on 
+        quantitative finance. Currently in my junior year at the University of Oregon, I have a passion
+        for coding, data analysis, and analyzing financial markets. I serve as Director of Finance for 
+        Oregon Quant Group, where I manage financial planning while also conducting indepdendent research.
+        I am currently seeking internships for Summer 2024 in software development or quantitative finance.
+      </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-reveal" data-scroll>
+      <h2>Projects</h2>
+
+      <div class="project-grid">
+        <div class="project-box">
+          <h3>Portfolio Optimizer</h3>
+          <p>Computes efficient frontiers, returns, and optimized asset weights for portfolios.</p>
+          <a href="https://github.com/eleanorsten/Portfolio-Optimizer" target="_blank">GitHub →</a>
+        </div>
+
+        <div class="project-box">
+          <h3>NASDAQ Announcement Research</h3>
+          <p>Examines how tech product announcements impact NASDAQ volatility and returns.</p>
+          <a href="https://github.com/eleanorsten?tab=repositories" target="_blank">GitHub →</a>
+        </div>
+
+        <div class="project-box">
+          <h3>DJIA in C</h3>
+          <p>C-based data structures project that performs data analysis across multiple dictionary 
+            implementations in C by storing and retrieving historical DJIA opening prices.
+             Using arrays, linked lists, and hash tables. </p>
+          <a href="https://github.com/eleanorsten/DJIA-in-C" target="_blank">GitHub →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-reveal contact-section" data-scroll>
+      <h2>Contact</h2>
+      <p>
+        I'm always open to opportunities, collaborations, and conversations.
+        Feel free to reach out.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:elst@uoregon.edu">Email</a>
+        <a href="https://www.linkedin.com/in/eleanor-stenberg/" target="_blank">LinkedIn</a>
+        <a href="resume.pdf" download>Resume</a>
+      </div>
+
+      <!-- EXTRA ACCENT IN CONTACT -->
+      <div class="contact-accent"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
